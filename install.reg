@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+; Right-click the desktop
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\RestartExplorer]
+"MUIVerb"="Restart Explorer"
+"Icon"="explorer.exe,0"
+"Position"="Bottom"
+
+[HKEY_CURRENT_USER\Software\Classes\DesktopBackground\Shell\RestartExplorer\command]
+@="cmd.exe /c taskkill /f /im explorer.exe & start explorer.exe"
+
+; Right-click empty space inside a folder
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\RestartExplorer]
+"MUIVerb"="Restart Explorer"
+"Icon"="explorer.exe,0"
+"Position"="Bottom"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\RestartExplorer\command]
+@="cmd.exe /c taskkill /f /im explorer.exe & start explorer.exe"
