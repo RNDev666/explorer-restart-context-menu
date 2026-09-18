@@ -33,5 +33,5 @@ if ($Uninstall) {
     Write-Host 'Removed "Restart Explorer" from the context menu.'
 } else {
     Write-Host 'Added "Restart Explorer" to the context menu.'
-    Write-Host 'On Windows 11 it lives under "Show more options" (Shift+F10).'
+    # Write-Host 'On Windows 11 it lives under "Show more options" (Shift+F10).'
 }
