@@ -17,3 +17,9 @@ irm https://raw.githubusercontent.com/RNDev666/explorer-restart-context-menu/mai
 
 On Windows 11 the item appears under **Show more options** (or Shift+F10) — the modern
 context menu only accepts entries from a signed MSIX package.
+
+## Support
+
+If this project is useful to you, you can support my work on Ko-fi:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rndev666)
